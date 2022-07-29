@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+.werapper-rooms-and-apartments {
+    max-width: 1920px;
+    box-sizing: border-box;
+    /* todo to change hight */
+}
+
+.werapper-rooms-and-apartments .rooms-and-apartments-title {
+    height: 127px;
+    box-sizing: border-box;
+    background-color: rgb(65, 52, 43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rooms-and-apartments-title p {
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 56px;
+    font-family: "Alice-Regular";
+}
+
+/* veertical border */
+.werapper-rooms-and-apartments .wrapper-vertical-border {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+    margin-bottom: 22px;
+}
+
+.werapper-rooms-and-apartments .wrapper-vertical-border .vertical-border {
+    border-left: 9px solid rgb(173, 151, 136);
+    height: 70px;
+    margin-top: 20px;
+}
+
+/* rooms-and-apartments */
+.werapper-rooms-and-apartments .wrapper-rooms {
+    widows: 100%;
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+    padding:0px 332px 0px 332px;
+    padding-bottom: 146px;
+}
+
+.werapper-rooms-and-apartments .wrapper-rooms p {
+    position: absolute;
+    font-size: 22px;
+    font-weight: bolder;
+    margin: 13px 0px 0px 21px;
+}
+
+.werapper-rooms-and-apartments .wrapper-rooms .room-number-border {
+    width: 45px;
+    border: 2px solid black;
+    position: absolute;
+    top: 12px;
+}
+ 
+.werapper-rooms-and-apartments .wrapper-rooms .rooms {
+    width: 392px;
+    height: 422px;
+    box-sizing: border-box;
+    margin-left: 30px;
+    transition: transform .3s;
+}
+
+.werapper-rooms-and-apartments .wrapper-rooms :link {
+    color: rgb(0, 0, 0);
+}
+
+.werapper-rooms-and-apartments .wrapper-rooms :visited {
+    color: rgb(0, 0, 0);
+}
+
+.werapper-rooms-and-apartments .wrapper-rooms :hover {
+    transform: scale(1.01);
+    filter: blur(2px);
+}
